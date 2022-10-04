@@ -178,8 +178,20 @@ header{
     text-align: center;
 }
 /* last image */
-#end-img img{
+#end-img #last-img{
     height: 800px;
+}
+.star-effect{
+    display: flex;
+    justify-content: center;
+}
+/* stars overlay */
+.star-effect h3{
+    position: relative;
+}
+#stars{
+    position: absolute;
+    padding: 20px;
 }
 /* Scarica per Mac */
 .end.interact-button{
