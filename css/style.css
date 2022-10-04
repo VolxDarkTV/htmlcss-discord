@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 500px;
+    /* DEBUG */
+    background-color: aquamarine;
+}
+.high-box-header{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    /* DEBUG */
+    background-color: violet;  
+    
+}
+/* logo */
+#logo{
+    display: flex;
+    align-items: center;
+}
+/* nav box */
+.nav-header{
+    height: 100px;
+    width: 50%;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+.link-nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    list-style: none;
+    /* DEBUG */
+    background-color: yellowgreen; 
+}
+/*delete decoration*/
+.link-nav-container a{
+   text-decoration: none;
+   color: white;
+}
+
+/* login button */
+.login-download{
+    display: flex;
+    align-items: center;
+}
+.login-download a{
+    text-decoration: none;
+}
+/* Where you want to open D? */
+.paragraf-under-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    
+    /* DEBUG */
+    background-color: tomato;
+}
+/* subtitle/paragraf */
+.center-subtitle-txt{
+    max-width: 50%;
+}
+/* centratura subtitle & paragraf */
+.center-subtitle-txt h2, .center-subtitle-txt p{
+    text-align: center;
+}
+.download-button-open-browser-button-center{
+    display: flex;
+    justify-content: center;
+}
+.download-button-open-browser-button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly; 
+    width: 20%;
+}
+.interact-button{
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    border: solid black 1px;
+    margin: 2% 0;
+}
+/* delete decoration */
+.interact-button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* main page */
+
+/* first-main-info */
+.first-main-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.first-main-info-reverse{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 5%;
+}
+.size-img{
+    max-width: 900px;
+}
+.first-main-info-article{
+    display: flex;
+    text-align: left;
+    max-width: 500px;
+}
+h2{
+    font-size: 70px;
+}
+p{
+    font-size: 24px;
+}
+h3{
+    font-size: 30px;
+}
+/* end section */
+.end-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15%;
+    text-align: center;
+}
+
+#end-img img{
+    height: 800px;
+}
+
+/* footer */
+footer{
+    background-color: rgb(3, 0, 14);
+    height: 500px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flex-sub-container-up{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 5%;
+    padding: 20px;
+    /* DEBUG */
+    background-color: rgb(0, 255, 34);
+}
+.main-footer-part{
+    min-width: 20%;
+    max-width: 30%;
+    color: rgb(87, 11, 187);
+}
+.footer-link-article a{
+    text-decoration: none;
+    color: #000;
+}
+.flex-sub-container{
+    color: rgb(87, 11, 187);
+}
+
+
+
+.footer-last-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    min-height: 100px;
+    border-top: solid rgb(38, 6, 184) 3px;
+    /* DEBUG */
+    background-color: rgb(217, 255, 0);
+    
+}
+#logo-footer{
+    
+}
+.registrati{
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    border: solid rgb(0, 0, 0) 1px;
+}
+.registrati a{
+    text-decoration: none;
+    color: #000;
+}
+
+#last-section{
+    display: flex;
+    justify-content: center;
+}
+
+    
