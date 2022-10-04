@@ -1,19 +1,35 @@
+/* general rules */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family:Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ }
+ 
+.interact-button{
+    padding: 10px;
+    border-radius: 20px;
+    border-style: none;
+    border: solid rgb(0, 0, 0) 1px;
+    padding: 10px;
+}
+/* Header */
 header{
-    height: 500px;
+    min-height: 700px;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     /* DEBUG */
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 .high-box-header{
     display: flex;
     justify-content: space-around;
     height: 100px;
     /* DEBUG */
-    background-color: violet;  
+    /* background-color: violet;   */
     
 }
 /* logo */
@@ -26,7 +42,7 @@ header{
     height: 100px;
     width: 50%;
     /* DEBUG */
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 .link-nav-container{
     display: flex;
@@ -35,7 +51,7 @@ header{
     height: 100px;
     list-style: none;
     /* DEBUG */
-    background-color: yellowgreen; 
+    /* background-color: yellowgreen;  */
 }
 /*delete decoration*/
 .link-nav-container a{
@@ -43,48 +59,61 @@ header{
    color: white;
 }
 
+
+
 /* login button */
 .login-download{
     display: flex;
     align-items: center;
+    /* DEBUG */
+    /* background-color: brown; */
+}
+#discord-login{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 100px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+#discord-login a{
+    color: #000;
 }
 .login-download a{
     text-decoration: none;
 }
+
+
+
 /* Where you want to open D? */
 .paragraf-under-nav{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 250px;
+    margin: 5% 0;
     
     /* DEBUG */
-    background-color: tomato;
+    /* background-color: tomato; */
 }
 /* subtitle/paragraf */
 .center-subtitle-txt{
+    margin: 0 auto;
     max-width: 50%;
 }
 /* centratura subtitle & paragraf */
 .center-subtitle-txt h2, .center-subtitle-txt p{
     text-align: center;
+    color: #fff;
 }
-.download-button-open-browser-button-center{
-    display: flex;
-    justify-content: center;
+.center-subtitle-txt p{
+    padding-top: 40px;
 }
 .download-button-open-browser-button{
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly; 
+    margin: 0 auto;
     width: 20%;
 }
-.interact-button{
-    padding: 10px;
-    border-radius: 20px;
-    border-style: none;
-    border: solid black 1px;
-    margin: 2% 0;
+.start.interact-button{
+    margin: 10% 3%;
 }
 /* delete decoration */
 .interact-button a{
@@ -115,13 +144,13 @@ header{
     text-align: left;
     max-width: 500px;
 }
-h2{
-    font-size: 70px;
+.first-main-info-article, div, h2{
+    font-size: 60px;
 }
-p{
+.first-main-info-article, div, p{
     font-size: 24px;
 }
-h3{
+.end-img, h3{
     font-size: 30px;
 }
 /* end section */
@@ -129,18 +158,21 @@ h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 15%;
+    margin: 5% 15%;
     text-align: center;
 }
 
 #end-img img{
     height: 800px;
 }
+.end.interact-button{
+    margin: 1.5% 0;
+}
 
 /* footer */
 footer{
     background-color: rgb(3, 0, 14);
-    height: 500px;
+    min-height: 500px;
 }
 .flex-container{
     display: flex;
@@ -160,6 +192,13 @@ footer{
     max-width: 30%;
     color: rgb(87, 11, 187);
 }
+#italy-flag{
+    height: 16px;
+    
+}
+
+
+
 .footer-link-article a{
     text-decoration: none;
     color: #000;
