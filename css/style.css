@@ -15,6 +15,14 @@ body{
     border: solid rgb(0, 0, 0) 1px;
     padding: 10px;
 }
+.discord-login, .registrati{
+    font-size: 18px;
+    width: 100px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+}
 /* Header */
 header{
     min-height: 700px;
@@ -68,15 +76,9 @@ header{
     /* DEBUG */
     /* background-color: brown; */
 }
-#discord-login{
+.discord-login{
     display: flex;
     justify-content: center;
-    font-size: 18px;
-    width: 100px;
-    padding: 10px;
-    border: solid black 1px;
-    border-radius: 20px;
-    background-color: aliceblue;
 }
 #discord-login a{
     color: #000;
@@ -114,7 +116,12 @@ header{
 }
 .start.interact-button{
     margin: 10% 3%;
+    background-color: rgb(22, 21, 21);
 }
+.start.interact-button a{
+    color: #fff;
+}
+
 /* delete decoration */
 .interact-button a{
     text-decoration: none;
@@ -161,13 +168,20 @@ header{
     margin: 5% 15%;
     text-align: center;
 }
-
+/* last image */
 #end-img img{
     height: 800px;
 }
+/* Scarica per Mac */
 .end.interact-button{
     margin: 1.5% 0;
+    background-color: rgb(41, 71, 192);
 }
+.end.interact-button a{
+    color: #fff;
+}
+
+
 
 /* footer */
 footer{
@@ -185,26 +199,37 @@ footer{
     margin-top: 5%;
     padding: 20px;
     /* DEBUG */
-    background-color: rgb(0, 255, 34);
+    /* background-color: rgb(0, 255, 34); */
 }
 .main-footer-part{
     min-width: 20%;
     max-width: 30%;
-    color: rgb(87, 11, 187);
+    color: rgb(41, 71, 192);
+}
+.main-footer-part h3, div{
+    margin-bottom: 20px;
 }
 #italy-flag{
     height: 16px;
-    
 }
 
 
-
-.footer-link-article a{
+.brand-link{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link-article a, .brand-link a{
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
 }
-.flex-sub-container{
-    color: rgb(87, 11, 187);
+/* Footer sub-text link style */
+.flex-sub-container, .footer-link-article{
+    font-size: 18px;
+    margin: 25px 0;
+}
+.flex-sub-container{ 
+    color: rgb(41, 71, 192);
 }
 
 
@@ -217,12 +242,10 @@ footer{
     min-height: 100px;
     border-top: solid rgb(38, 6, 184) 3px;
     /* DEBUG */
-    background-color: rgb(217, 255, 0);
+    /* background-color: rgb(217, 255, 0); */
     
 }
-#logo-footer{
-    
-}
+
 .registrati{
     margin-right: 10px;
     padding: 10px;
