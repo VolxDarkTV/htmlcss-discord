@@ -240,6 +240,9 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.brand-link a:hover{
+    color: rgb(160, 160, 160);
+}
 .footer-link-article a, .brand-link a{
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -248,6 +251,10 @@ footer{
 .flex-sub-container, .footer-link-article{
     font-size: 18px;
     margin: 25px 0;
+}
+/* footer-link-article (Footer Link) Hover */
+.footer-link-article:hover{
+    text-decoration: underline;
 }
 .flex-sub-container{ 
     color: rgb(41, 71, 192);
@@ -278,7 +285,10 @@ footer{
     text-decoration: none;
     color: #000;
 }
-
+/* registrati Hover */
+.registrati:hover{
+    background-color: rgb(194, 194, 194);
+}
 #last-section{
     display: flex;
     justify-content: center;
